@@ -37,7 +37,7 @@ jobs:
 
       # Run the linter.
       - run: cd backend && npm init @eslint/config
-      - run: cd backend && eslint . --ext .js,.jsx,.ts,.tsx
+      - run: cd backend && npm eslint . --ext .js,.jsx,.ts,.tsx
       
                     
             
