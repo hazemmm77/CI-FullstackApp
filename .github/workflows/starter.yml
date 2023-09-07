@@ -33,11 +33,11 @@ jobs:
       
 
       # Run the tests.
-      - run: npm test
+      - run: cd backend && npm test
 
       # Run the linter.
       - name: Run ESLint
-        run: eslint . --ext .js,.jsx,.ts,.tsx
+        run: cd backend && eslint . --ext .js,.jsx,.ts,.tsx
       
                     
             
