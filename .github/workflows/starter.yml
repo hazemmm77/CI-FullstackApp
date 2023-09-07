@@ -36,8 +36,7 @@ jobs:
       - run: cd backend && npm test
 
       # Run the linter.
-      - name: Run ESLint
-        run: cd backend &&  npm run lint
+      - run: cd backend &&  npm run lint
       
                     
             
